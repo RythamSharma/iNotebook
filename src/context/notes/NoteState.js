@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import noteContext from "./noteContext";
-const host = "http://localhost:5000";
+const host = "https://i-notebook-steel.vercel.app/";
 const NoteState = (props) => {
   const [Notes, setNotes] = useState([]);
 
